@@ -23,7 +23,7 @@ def home(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('your_app.urls')),  # API URLs
+    path('api/', include('appointment.urls')),  # API URLs
     path('', home),  # Add this line for the root
 ]
 
