@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
-ALLOWED_HOSTS = ['pest-9e7o.onrender.com', '127.0.0.1','localhost' ]
+ALLOWED_HOSTS = ['pest-9e7o.onrender.com', '127.0.0.1','localhost' , 'https://bejewelled-centaur-7a4698.netlify.app/' ]
 
 # 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -143,4 +143,5 @@ CORS_ALLOW_ALL_ORIGINS = True
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:5173',  # React (Vite) local URL
     'http://127.0.0.1:5173',
+    'https://bejewelled-centaur-7a4698.netlify.app/'
 ]
