@@ -21,7 +21,7 @@ def book_appointment(request):
             # Prepare the email content
             subject = 'New Appointment Booking Received'
             message = f"""
-                You have received a new appointment booking.
+                You have received a new appointment.
                 Name: {name}
                 Phone: {phone}
                 Email: {email}
